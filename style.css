@@ -199,6 +199,17 @@ header .navbar ul li a:hover {
     background-color: white;
 }
 
+.portfolio .box-container .box p {
+
+  font-size: large;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 2rem;
+  position: sticky;
+
+
+}
+
+
 
 .portfolio .box-container .box img {
     height: 100%;
@@ -236,7 +247,7 @@ header .navbar ul li a:hover {
     background: rgba(239, 237, 237, 0.2);
     color: #fff;
     text-transform: none;
-    font-size: 1.7rem;
+    font-size: 2rem;
     width: 100%;
 }
 .contact .row form .box::placeholder {
@@ -247,9 +258,9 @@ header .navbar ul li a:hover {
     resize: none;
 }
 .contact .row .content .title {
-    text-transform: uppercase;
+    text-transform: none;
     color: #fff;
-    font-size: 2rem;
+    font-size: 2.5rem;
     padding-bottom: 2rem;
 }
 .contact .row .content .info h3 {
@@ -260,10 +271,18 @@ header .navbar ul li a:hover {
     color: #fff;
     padding: 1rem 0;
     font-weight: normal;
+
 }
 .contact .row .content .info h3 i {
     padding-right: 1rem;
-    color: var(--color);
+    color: white;font-size: 2rem;
+    font-size: 3rem;
+
+
+}
+
+.fas fa-paper-plane green-color {
+
 }
 
 /* Contact Section Ends */
